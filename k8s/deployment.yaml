@@ -16,4 +16,11 @@ spec:
         - name: portfolio
           image: m1theusr/portfolio:latest
           ports:
-            - containerPort: 3000
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 250m
+              memory: 256Mi
