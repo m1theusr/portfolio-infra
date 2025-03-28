@@ -4,7 +4,7 @@ metadata:
   name: portfolio-ingress
 spec:
   rules:
-    - host: m1theusr.sytes.net
+    - host: m1theusr.ddns.net
       http:
         paths:
           - path: /
